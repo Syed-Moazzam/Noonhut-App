@@ -1,0 +1,200 @@
+.container-of-sidebar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 73px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+
+.sidebar {
+    padding: 0px 10px;
+    height: 95vh;
+    width: 315px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid #f0f0f0;
+}
+
+#buyers-email-address {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    width: 90%;
+    word-break: break-word;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo::after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    height: 1.6px;
+    background-color: rgb(232, 233, 235);
+}
+
+#carrot-image-of-sidebar {
+    width: 34%;
+    padding: 3.5px 10px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(232, 233, 235);
+}
+
+#noonhut-name-image-of-sidebar {
+    width: 92%;
+    margin: 6px 0px;
+}
+
+.links-of-sidebar {
+    width: 100%;
+    height: 62%;
+    margin-top: 20px;
+    position: relative;
+}
+
+#links-of-sidebar{
+    height: 58%;
+}
+
+.links-of-sidebar > div {
+    margin: 8px 0px 8px 7px;
+    width: 95%;
+}
+
+.links-of-sidebar > div > a{
+    color: rgb(52, 53, 56);
+    line-height: 22px;
+    text-decoration: none;
+    height: 46.5px;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+
+.links-of-sidebar > div > a:hover{
+    background-color: rgb(246, 247, 248);
+}
+
+.sign-out-div-of-sidebar {
+    position: absolute;
+    bottom: 42px;
+    margin: 0px 0px 0px 7px!important;
+}
+
+.sign-out-div-of-sidebar > button {
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(10, 173, 10);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sign-out-div-of-sidebar > button:hover {
+    background-color: rgb(9, 155, 9);
+}
+
+.sign-out-div-of-sidebar > button > span{
+    margin: 12px;
+}
+
+.hidden-links-of-stores-sidebar {
+    width: 100%;
+    height: 62%;
+    margin-top: 20px;
+    display: none;
+    overflow: scroll;
+    padding-bottom: 32px;
+}
+
+.go-back-icon-of-sidebar-links {
+    margin: 0px 0px 14px 0px !important;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+    width: 100% !important;
+    z-index: 1;
+    background-color: white;
+}
+
+.go-back-icon-of-sidebar-links > i {
+    cursor: pointer;
+    margin-left: 9.5px;
+}
+
+.hidden-links-of-stores-sidebar > div {
+    margin: 8px 0px 8px 3px;
+    width: 95%;
+}
+
+.hidden-links-of-stores-sidebar > div > a{
+    color: rgb(52, 53, 56);
+    line-height: 22px;
+    text-decoration: none;
+    height: 46.5px;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+
+.hidden-links-of-stores-sidebar > div > a:hover{
+    background-color: rgb(246, 247, 248);
+}
+
+.icons-of-sidebar {
+    width: 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.span-of-sidebar-links{
+    margin-left: 6px;
+}
+
+.active{
+    background-color: rgb(52, 53, 56) !important;
+    color: white !important;
+}
+
+.right-side-content {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    padding: 30px 48px;
+    overflow-y: hidden;
+}
+
+#right-side-content {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    padding: 30px 48px;
+    overflow-y: hidden;
+}

@@ -1,0 +1,241 @@
+.container-of-seller-my-store {
+    padding: 15px 0px 15px 38px;
+    height: 95vh;
+}
+
+.navbar-of-seller-my-store {
+    display: flex;
+    align-items: center;
+}
+
+.name-of-component-my-store {
+    width: 69.5vw;
+}
+
+.name-of-component-my-store > p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+.div-for-dashboard-and-profile-icon-my-store {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 18px;
+}
+
+.div-for-dashboard-and-profile-icon-my-store > div {
+    margin: 0px 10px;
+}
+
+.search-bar-div-my-store {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px !important;
+}
+
+.search-bar-div-my-store > svg {
+    color: rgb(53 52 52);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.search-bar-div-my-store > input {
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+}
+
+#menu-list-of-navbar-my-store {
+    position: absolute;
+    z-index: 1;
+    width: 102px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+#menu-list-of-navbar-my-store > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu-list-of-navbar-my-store > a:hover {
+    background-color: #242225;
+    color: white;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 5px 10px -6px rgb(36 36 37 / 40%);
+}
+
+.mui-table-container-of-my-store {
+    margin-top: 35px;
+    width: auto !important;
+    overflow: auto;
+    background-color: #eff3f363;
+}
+
+.mui-table-container-of-my-store > div {
+    padding: 20px 15px;
+    border-radius: 3px;
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(30, 30, 30)) !important;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(89 88 90 / 66%) !important;
+    margin: 0px 12px;
+    color: white;
+    position: sticky;
+    left: 12px;
+    width: auto;
+}
+
+.mui-table-container-of-my-store > div > h5 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.mui-table-of-my-store {
+    margin-top: 2.2rem;
+}
+
+.mui-table-of-my-store th {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.td-of-my-store-table {
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #596e6e9c;
+    border-top: 1.58px solid #596e6e9c;
+    padding: 6.5px 10px;
+}
+
+.visible-span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.not-visible-span {
+    display: none;
+}
+
+.visible-inputs {
+    font-size: 16px;
+    font-family: inherit;
+    width: 175px;
+    background-color: white;
+    border: 1.5px solid;
+    border-radius: 5px;
+    display: block;
+    padding: 1.5px 3.5px;
+}
+
+.not-visible-inputs {
+    display: none;
+}
+
+.upload-img-div-my-store{
+    display: flex;
+}
+
+.upload-img-div-my-store > button {
+    margin: 0px 5px;
+}
+
+.uploaded-images-of-my-store{
+    width: 90px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.browse-upload-img-btn-my-store {
+    text-align: center;
+    width: 85px;
+    margin: auto;
+    border: none;
+    background-color: #1c1b1bfc;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.browse-upload-img-btn-my-store:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    color: black;
+}
+
+.browse-upload-img-btn-my-store:disabled {
+    cursor: auto;
+    background-color: #58595ad6;
+}
+
+.browse-upload-img-btn-my-store:disabled:hover {
+    background-color: #58595ad6;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 2px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    color: white;
+}
+
+.hidden-upload-image-inputs {
+    display: none;
+}
+
+.edit-delete-save-btn-of-my-store-table {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0px 3px;
+}
+
+.edit-delete-save-btn-of-my-store-table:active {
+    background-color: #c5cfcf6b;
+}
+
+.div-for-btns-of-my-store {
+    display: flex;
+    margin-top: 24px;
+}
+
+.div-for-btns-of-my-store > button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1b1bfc;
+    color: white;
+    width: 172px;
+    padding: 11.5px;
+    margin-right: 35px;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.div-for-btns-of-my-store > button:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    background-color: white;
+    color: black;
+}
+
+.div-for-btns-of-my-store span {
+    margin-right: 6.5px;
+}

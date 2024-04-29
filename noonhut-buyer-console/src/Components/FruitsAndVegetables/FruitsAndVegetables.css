@@ -1,0 +1,21 @@
+.sub-container-of-fruits-and-vegetables-products{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+.show-fruit-and-veg-item{
+    width: 220px;
+    height: 260px;
+    margin: 10px 20px 15px 0px;
+    text-align: center;
+    display: block;
+}
+
+.hide-fruit-and-veg-item{
+    display: none;
+}
+
+.images-of-fruit-and-veg-component {
+    width: 95%;
+    height: 65%;
+}

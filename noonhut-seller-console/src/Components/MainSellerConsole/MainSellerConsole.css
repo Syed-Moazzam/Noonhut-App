@@ -1,0 +1,87 @@
+.container-of-main-seller-console {
+    display: flex;
+}
+
+.sidebar-of-seller-console {
+    padding: 0px 10px;
+    height: 100vh;
+    width: 305px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid #f0f0f0;
+}
+
+.active {
+    background-color: rgb(52, 53, 56) !important;
+    color: white !important;
+}
+
+.logo {
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#noonhut-name-image-of-seller-console-sidebar {
+    width: 92%;
+    margin-top: 6.5px;
+}
+
+.store-name {
+    width: 95%;
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+
+.store-name::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+
+.store-name h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.links-of-seller-console-sidebar {
+    margin: 8px 0px 8px 7px;
+    width: 95%;
+}
+
+.links-of-seller-console-sidebar > a {
+    color: rgb(52, 53, 56);
+    line-height: 22px;
+    text-decoration: none;
+    height: 46.5px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0px 12px;
+}
+
+.links-of-seller-console-sidebar > a > span {
+    margin-left: 10px;
+}
+
+.links-of-seller-console-sidebar > a:hover {
+    background-color: rgb(246, 247, 248);
+}
+
+.right-side-content-of-seller-console{
+    width: 76.2%;
+}

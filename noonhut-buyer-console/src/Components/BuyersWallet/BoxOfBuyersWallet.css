@@ -1,0 +1,62 @@
+.container-of-box {
+    width: 20.5vw;
+    margin-bottom: 56px;
+    position: relative;
+}
+
+.box-of-buyers-wallet{
+    background-color: #ebecec63;
+    padding: 14px 16px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    border-radius: 6px;
+}
+
+.div-for-icons-and-description .description{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.div-for-icon-of-buyers-wallet {
+    position: absolute;
+    top: 0px;
+    width: 91px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(76 175 80 / 40%);
+}
+
+.div-for-icon-of-buyers-wallet *{
+    width: 36px !important;
+    height: 36px !important;
+    color: white;
+}
+
+.description > p {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+
+.description > h4 {
+    margin-bottom: 0px;
+}
+
+.bottom-description {
+    display: flex;
+}
+
+.bottom-description > div{
+    margin: 0px 5px;
+}
+
+#first-div-of-bottom-description{
+    color: #4caf50;   
+}
+
+#arrow-up-span-fo-bottom-description {
+    margin-right: 6px;
+}

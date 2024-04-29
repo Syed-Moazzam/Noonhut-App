@@ -1,0 +1,250 @@
+.header-of-checkout {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 5;
+    border-bottom: 1px solid rgb(227, 226, 222);
+    background: rgb(255, 255, 255);
+}
+
+.header-of-checkout img {
+    width: 180px;
+}
+
+.container-of-body-checkout {
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.left-form-of-body-checkout {
+    width: 700px;
+    padding: 10px 25px 30px 25px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 30px;
+}
+
+.left-form-of-body-checkout > div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 24px 0px;
+}
+
+.icons-of-checkout {
+    color: rgb(67, 176, 42);
+}
+
+.div-for-current-location {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#current-location-btn {
+    color: #393939;
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 6px;
+}
+
+#current-location-btn > span {
+    margin-left: 6px;
+}
+
+#span-for-buyer-coordinates {
+    display: none;
+    position: absolute;
+    right: 5px;
+    color: #393939;
+    font-weight: bolder;
+}
+
+.labels-of-checkout {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.labels-of-checkout > span{
+    margin-left: 6px;
+}
+
+.inputs-of-checkout {
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1.5px solid rgb(190, 190, 190);
+}
+
+.select-of-checkout {
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.textarea-for-delivery-instructions {
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.div-for-showing-total-items {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.div-for-showing-total-items > img {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+}
+
+.div-for-showing-total-items p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.item-images-of-buyers-cart {
+    width: 55px !important;
+    height: 55px !important;
+    margin-right: 4px;
+}
+
+.proceed-to-payment-btn {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    background-color: rgb(10, 173, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 56px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.proceed-to-payment-btn:hover {
+    background-color: rgb(9, 155, 9);
+}
+
+.right-div-of-body-checkout {
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    padding: 20px 20px 24px 20px;
+}
+
+#loyalty-rewards-para-of-checkout {
+    font-size: 15px;
+    color: #393939;
+    margin-bottom: 10px;
+}
+
+#logo-of-right-div-checkout {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.input-for-card-number-checkout {
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+    width: 200px;
+    padding: 8px;
+    margin-left: 8px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(190, 190, 190);
+}
+
+.satisfaction-guarantee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.satisfaction-guarantee > img {
+    width: 55px;
+}
+
+.satisfaction-guarantee > p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+#span-of-satisfaction-guarantee {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: rgb(43, 120, 198);
+}
+
+#place-order-with-peace {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.item-subtotal-div > p {
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.span-of-price-details {
+    font-size: 15px;
+    color: #393939;
+    font-weight: bold;
+}
+
+.price-spans-of-item-subtotal {
+    position: absolute;
+    right: 0px;
+    font-size: 15px;
+}
+
+.add-promo-code-btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(10, 173, 10);
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+}
+
+.add-promo-code-btn:hover {
+    color: rgb(9, 138, 9);
+}
+
+.div-for-terms-and-conditions-checkout {
+    background-color: rgb(250, 250, 250);
+    width: 330px;
+    padding: 24px 20px;
+    padding-bottom: 14px;
+}
+
+.span-of-terms-and-conditions-checkout {
+    color: rgb(10, 173, 10);
+    cursor: pointer;
+}
+
+.span-of-terms-and-conditions-checkout:hover {
+    text-decoration: underline;
+}
+
+.div-for-terms-and-conditions-checkout > p {
+    font-size: 10.5px;
+    letter-spacing: 0.4px;
+    margin-bottom: 12px;
+} 

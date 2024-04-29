@@ -1,0 +1,155 @@
+.carousel-control-prev {
+    width: 12% !important;
+}
+
+.left-right-icons{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.div-of-home{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.25;
+}
+
+.img-of-home {
+    width: 100%;
+    height: 92vh;
+}
+
+.text-of-home-div1 {
+    position: absolute;
+    top: 7.5rem;
+    left: 12rem;
+    width: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-of-home-div1 > h1{
+    font-size: 8vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+.text-of-home-div1 > h2 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.text-of-home-div2 {
+    position: absolute;
+    top: 14rem;
+    left: 12rem;
+    width: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-of-home-div2 > h1{
+    font-size: 8vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+.text-of-home-div2 > h2 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.view-details-btn-of-home {
+    margin-top: 2.3rem;
+}
+
+.view-details-btn-of-home > a {
+    background-color: rgb(10, 173, 10);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px 18px;
+    border: 2px solid rgb(10, 173, 10);
+    border-radius: 28px;
+}
+
+.view-details-btn-of-home > a:hover {
+    background-color: transparent;
+}
+
+/* services section */
+.services-section{
+    display: flex;
+    padding: 6.5rem 0rem;
+    justify-content: center;
+}
+
+.services-box {
+    text-align: center;
+    width: 22%;
+}
+
+.services-box > span {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    margin: auto;
+    border-radius: 65px;
+    padding: 24px 0px;
+    cursor: pointer;
+}
+
+.services-box img{
+    width: 4.5vw;
+}
+
+.services-box > h3{
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.services-box > p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#span-1{
+    background-color: #e4b2d6;
+}
+
+#span-2{
+    background-color: #dcc698;
+}
+
+#span-3{
+    background-color: #a2d1e1;
+}
+
+#span-4{
+    background-color: #dcd691;
+}
+
+#span-1:hover{
+    background-color: #95ca4c;
+}
+
+#span-2:hover{
+    background-color: #95ca4c;
+}
+
+#span-3:hover{
+    background-color: #95ca4c;
+}
+
+#span-4:hover{
+    background-color: #95ca4c;
+}

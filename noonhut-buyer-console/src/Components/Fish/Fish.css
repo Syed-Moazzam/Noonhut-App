@@ -1,0 +1,21 @@
+.sub-container-of-fish-products{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+.show-fish-item{
+    width: 220px;
+    height: 260px;
+    margin: 10px 20px 15px 0px;
+    display: block;
+    text-align: center;
+}
+
+.hide-fish-item {
+    display: none;
+}
+
+.images-of-fish-component {
+    width: 95%;
+    height: 65%;
+}

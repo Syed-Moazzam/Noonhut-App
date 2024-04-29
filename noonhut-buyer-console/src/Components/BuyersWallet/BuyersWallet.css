@@ -1,0 +1,9 @@
+.container-of-buyers-wallet > h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sub-container-of-buyers-wallet{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}

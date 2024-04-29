@@ -1,0 +1,150 @@
+.container-of-receipt-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.45);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.download-and-close-btn-of-receipt {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.download-and-close-btn-of-receipt > button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.download-and-close-btn-of-receipt > button:hover {
+    color: rgb(31, 238, 31);
+}
+
+.order-summary-box {
+    width: 480px;
+    background-color: rgb(246, 247, 248);
+    text-align: center;
+}
+
+.order-summary-box > h2 {
+    background-color: #fff;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.order-summary-box > h3 {
+    background-color: #fff;
+    margin: 0px 0px 10px 0px;
+}
+
+.blank-div-of-receipt-image1 {
+    height: 20px;
+    background-color: rgb(246, 247, 248);
+}
+
+.blank-div-of-receipt-image2 {
+    height: 40px;
+    background-color: rgb(246, 247, 248);
+}
+
+.each-item-of-receipt-image {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 5px;
+}
+
+#item-image-of-receipt {
+    width: 85px;
+}
+
+.item-description-of-receipt-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.item-description-of-receipt-image > p {
+    width: 74%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#item-quantity-of-receipt-image {
+    border: 1px solid rgb(232, 233, 235);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+#item-price-of-receipt-image {
+    margin-left: 16px;
+}
+
+.total-amount-of-receipt-image {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 10px 12px 20px;
+}
+
+.total-amount-of-receipt-image > i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#total-amount-heading-receipt-image {
+    width: 82.5%;
+    text-align: left;
+    margin: 0px;
+}
+
+#price-span-of-receipt-image {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hr-of-receipt-image {
+    margin: 0px;
+}
+
+.status-of-order-receipt-image {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 10px 12px 22px;
+}
+
+#status-heading-receipt-image {
+    width: 80.3%;
+    text-align: left;
+    margin: 0px;
+}
+
+.status-of-order-receipt-image > i {
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+#paid-span-of-receipt-image {
+    color: rgb(10, 173, 10);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#thanks-for-shopping-receipt-image {
+    color: rgb(10, 173, 10);
+}

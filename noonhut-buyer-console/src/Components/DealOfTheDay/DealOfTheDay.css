@@ -1,0 +1,68 @@
+.deal-of-the-day-container{
+    background: url("../Images/bg_3.jpg") center / cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5rem;
+}
+
+.text-of-deal-container{
+    width: 48%;
+}
+
+.text-of-deal-container > h5{
+    color: rgb(10, 173, 10);
+    margin-top: 16px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+}
+
+.text-of-deal-container > h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 16px 0px;
+    letter-spacing: 1.25px;
+}
+
+.text-of-deal-container > p{
+    color: gray;
+}
+
+.text-of-deal-container > h2{
+    margin-bottom: 12px;
+}
+
+.text-of-deal-container > h2 > a{
+    text-decoration: none;
+    color: rgb(10, 173, 10);
+    font-size: 35px;
+}
+
+#price-of-deal-of-the-day{
+    font-size: 20px;
+    color: rgb(10, 173, 10);
+    margin-bottom: 8px;
+}
+
+#price-of-deal-of-the-day span{
+    color: gray;
+}
+
+.container-of-timer {
+    display: flex;
+}
+
+.container-of-timer > div {
+    margin-right: 22px;
+    text-align: center;
+}
+
+.container-of-timer p {
+    color: rgb(10, 173, 10);
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+.container-of-timer span {
+    font-size: 16.5px;
+}

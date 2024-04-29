@@ -1,0 +1,21 @@
+.sub-container-of-dairy-products{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+.show-dairy-item{
+    width: 220px;
+    height: 260px;
+    margin: 10px 20px 15px 0px;
+    display: block;
+    text-align: center;
+}
+
+.hide-dairy-item {
+    display: none;
+}
+
+.images-of-dairy-component {
+    width: 95%;
+    height: 65%;
+}

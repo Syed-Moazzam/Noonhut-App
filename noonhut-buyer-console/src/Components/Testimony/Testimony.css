@@ -1,0 +1,114 @@
+#review-section{
+    margin: 6.5rem 0rem 3.5rem 0rem;
+}
+
+.review-headings > h4{
+    color: rgb(10, 173, 10);
+    text-align: center;
+    letter-spacing: 1.25px;
+}
+
+.review-headings > h1{
+    letter-spacing: 1.25px;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub-container-of-review {
+    display: flex;
+    justify-content: center;
+    width: 86%;
+    margin: 12px auto 0px auto;
+}
+
+#second-sub-container-of-review{
+    margin-bottom: 30px;
+}
+
+.box-of-review{
+    border: 1.5px solid #f0f0f0;
+    margin: 22px;
+    padding: 25px 25px 15px 25px;
+}
+
+.box-of-review:hover{
+    box-shadow: 0px 7px 15px -3px rgb(0 0 0 / 10%);
+}
+
+.img-and-rating-review{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+.img-and-rating-review > img{
+    width: 25%;
+    border-radius: 45px;
+}
+
+.img-and-rating-review > i {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    color: #a6a9a9d6;
+    font-size: 62px;
+}
+
+.name-and-rating-of-review {
+    margin: 15px;
+    margin-right: 0px;
+    width: 45%;
+}
+
+.name-and-rating-of-review > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.name-and-rating-of-review > i {
+    color: rgb(10, 173, 10);
+    font-size: 18px;
+}
+
+.content-of-review{
+    font-size: 18px;
+    color: #666;
+    padding-top: 14px;
+}
+
+.content-of-review p{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.div-for-become-a-seller-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.div-for-become-a-seller-btn > a{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(10, 173, 10);
+    border: 2px solid rgb(10, 173, 10);
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    width: 210px;
+    height: 60px;
+    margin: 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.div-for-become-a-seller-btn > a:hover{
+    background-color: transparent;
+    color: rgb(10, 173, 10);
+}

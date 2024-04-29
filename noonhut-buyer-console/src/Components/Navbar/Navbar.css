@@ -1,0 +1,76 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 1px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 9%) 0px -1px 0px inset;
+}
+
+.navbar > div{
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
+
+.left {
+    position: relative;
+    top: 2px;
+    left: 8px;
+    width: 82.5%;
+}
+
+#left {
+    width: 90%;
+}
+
+.left > a {
+    margin-bottom: 4px;
+}
+
+.left > button{
+    color: rgb(23 161 23);
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0px 5px 0px 12px;
+}
+
+.logo-of-noonhut-navbar {
+    width: 48%;
+    height: 85%;
+}
+
+.right {
+    position: absolute;
+    right: 25px;
+}
+
+.right > button {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(10, 173, 10);
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+    width: 95px;
+    height: 45px;
+    margin: 0px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.right > button:hover{
+    background-color: black;
+}
+
+.cart-icon-of-navbar {
+    padding: 0px !important;
+    margin-right: 15px !important;
+}

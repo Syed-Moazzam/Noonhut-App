@@ -1,0 +1,112 @@
+#heading-of-my-profile {
+    font-weight: 600;
+    margin-bottom: 36.5px;
+}
+
+#edit-details-btn-of-buyers-profile{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(30, 30, 30));
+    color: white;
+    padding: 6px 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 190px;
+}
+
+#edit-details-btn-of-buyers-profile:hover{
+    background: white;
+    color: black;
+}
+
+#edit-details-btn-of-buyers-profile > span{
+    margin-right: 8px;
+}
+
+#save-changes-btn-of-buyers-profile{
+    position: absolute;
+    right: 220px;
+    top: 0;
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(30, 30, 30));
+    color: white;
+    padding: 6px 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 190px;
+}
+
+#save-changes-btn-of-buyers-profile:hover{
+    background: white;
+    color: black;
+}
+
+#save-changes-btn-of-buyers-profile > span{
+    margin-right: 8px;
+}
+
+.table-container-of-buyers-profile {
+    position: relative;
+    margin: 0px;
+    overflow: hidden;
+    width: auto !important;
+    background-color: #eff3f363;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+
+.table-container-of-buyers-profile > div {
+    padding: 20px 15px;
+    border-radius: 3px;
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(30, 30, 30)) !important;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(89 88 90 / 66%) !important;
+    margin: 0px 12px;
+    color: white;
+    position: sticky;
+    left: 12px;
+    width: auto;
+}
+
+.table-container-of-buyers-profile > div > h5{
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.table-of-buyers-profile{
+    margin-top: 2.2rem;
+}
+
+.columns-of-table-buyers-profile > th {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.visible-inputs {
+    font-size: 16px;
+    font-family: inherit;
+    width: 185px;
+    background-color: white;
+    border: 1.5px solid;
+    border-radius: 5px;
+    display: block;
+    padding: 1.5px 3.5px;
+    margin: 0px 10px;
+}
+
+.not-visible-inputs {
+    display: none;
+}
+
+.visible-span {
+    display: block;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.not-visible-span {
+    display: none;
+}

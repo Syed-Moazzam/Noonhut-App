@@ -1,0 +1,244 @@
+.company-logos {
+    display: flex;
+    justify-content: center;
+    padding: 4.5rem 0rem;
+    border-top: 2px solid #f0f0f0;
+}
+
+.company-logos > div {
+    width: 16.25%;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.company-logos img{
+    width: 100%;
+    height: 14.5vh;
+}
+
+/* Affiliate Section */
+.container-for-affiliate-section {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 2rem 0rem;
+}
+
+.container-for-affiliate-section > div {
+    width: 16%;
+    margin: 0px 15px;
+}
+
+.container-for-affiliate-section > div h5 {
+    font-size: 18px;
+    margin: 10px 0px 14px 0px;
+    font-weight: 600;
+}
+
+.become-affiliate-div{
+    margin-right: 6.5rem !important;
+    margin-left: 2rem !important;
+}
+
+#first-div-of-become-affiliate{
+    display: flex;
+}
+
+#first-div-of-become-affiliate > img{
+    width: 36px;
+    margin-right: 10px;
+}
+
+#first-div-of-become-affiliate > h5{
+    margin: 10px 0px 14px 0px;
+}
+
+#div-for-ios-android-icons{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+#div-for-ios-android-icons > a{
+    margin-right: 30px;
+    color: #3e4242;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#div-for-ios-android-icons > a:hover{
+    text-decoration: underline;
+}
+
+#div-for-ios-android-icons > a i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.make-money-with-us-div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4.5rem !important;
+}
+
+.make-money-with-us-div > p{
+    margin-bottom: 12px;
+}
+
+.make-money-with-us-div a{
+    text-decoration: none;
+    color: gray;
+}
+
+.make-money-with-us-div a:hover{
+    text-decoration: underline
+}
+
+.top-cities-div > p{
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.more-cities-div > p{
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.shopper-help-div > p{
+    margin-bottom: 12px;
+}
+
+.shopper-help-div > p a{
+    color: gray;
+    text-decoration: none;
+}
+
+.shopper-help-div > p a:hover{
+    text-decoration: underline;
+}
+
+/* Shopper Section */
+.container-for-shopper-section {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 2rem 0rem;
+}
+
+.container-for-shopper-section > div {
+    width: 16%;
+    margin: 0px 15px;
+}
+
+.container-for-shopper-section > div h5 {
+    font-size: 18px;
+    margin: 10px 0px 14px 0px;
+    font-weight: 600;
+}
+
+.become-shopper-div{
+    margin-right: 6.5rem !important;
+    margin-left: 2rem !important;
+}
+
+#first-div-of-become-shopper{
+    display: flex;
+}
+
+#first-div-of-become-shopper > img{
+    width: 36px;
+    margin-right: 10px;
+}
+
+#first-div-of-become-shopper > h5{
+    margin: 10px 0px 14px 0px;
+}
+
+/* rider Section */
+.container-for-rider-section {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding: 2rem 0rem;
+}
+
+.container-for-rider-section > div {
+    width: 16%;
+    margin: 0px 15px;
+}
+
+.container-for-rider-section > div h5 {
+    font-size: 18px;
+    margin: 10px 0px 14px 0px;
+    font-weight: 600;
+}
+
+.become-rider-div{
+    margin-right: 6.5rem !important;
+    margin-left: 2rem !important;
+}
+
+#first-div-of-become-rider{
+    display: flex;
+}
+
+#first-div-of-become-rider > img{
+    width: 36px;
+    margin-right: 10px;
+}
+
+#first-div-of-become-rider > h5{
+    margin: 10px 0px 14px 0px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+}
+
+.footer > div{
+    padding: 12px 0px;
+    width: 34%;
+}
+
+.legal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal p{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3e4242;
+}
+
+.terms-of-use{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-of-use > p{
+    color: #3e4242;
+    margin: 0px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-icons i {
+    font-size: 26px;
+    color: #3e4242;
+    margin: 0px 16px;
+}
+
+.social-media-icons i:hover {
+    color: rgb(10, 173, 10);
+}

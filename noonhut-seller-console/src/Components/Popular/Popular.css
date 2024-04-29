@@ -1,0 +1,154 @@
+.container-of-seller-popular {
+    padding: 15px 0px 15px 38px;
+    height: 95vh;
+}
+
+.navbar-of-seller-popular {
+    display: flex;
+    align-items: center;
+}
+
+.name-of-component-popular {
+    width: 69.5vw;
+}
+
+.name-of-component-popular > p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0px;
+}
+
+.div-for-dashboard-and-profile-icon-popular {
+    display: flex;
+    position: absolute;
+    right: 18px;
+}
+
+.div-for-dashboard-and-profile-icon-popular > div {
+    margin: 0px 10px;
+}
+
+#menu-list-of-navbar-popular {
+    position: absolute;
+    z-index: 1;
+    width: 102px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-top: 3px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+#menu-list-of-navbar-popular > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menu-list-of-navbar-popular > a:hover {
+    background-color: #242225;
+    color: white;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 5px 10px -6px rgb(36 36 37 / 40%);
+}
+
+.div-for-start-and-end-date-popular{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.start-date-popular, .end-date-popular {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-right: 80px;
+}
+
+.start-date-popular > input {
+    padding: 8px;
+    box-shadow: 0px 0px 4px 0.3px rgb(25 25 25);
+    margin-top: 5px;
+    outline: none;
+}
+
+.end-date-popular > input {
+    padding: 8px;
+    box-shadow: 0px 0px 4px 0.3px rgb(25 25 25);
+    margin-top: 5px;
+    outline: none;
+}
+
+.container-of-seller-popular-boxes {
+    display: flex;
+}
+
+.container-of-box-popular {
+    width: 320px;
+    margin: 26px 65px 42px 0px;
+    position: relative;
+}
+
+.box-of-seller-popular{
+    background-color: #ebecec63;;
+    padding: 14px 16px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+    border-radius: 6px;
+}
+
+.div-for-icons-and-description-popular .description-popular{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 28px;
+}
+
+.div-for-icon-of-seller-popular {
+    position: absolute;
+    top: 0px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(76 175 80 / 40%);
+}
+
+.div-for-icon-of-seller-popular *{
+    width: 36px !important;
+    height: 36px !important;
+    color: white;
+}
+
+.description-popular > p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: #333;
+}
+
+.description-popular > h4 {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.bottom-description-popular {
+    display: flex;
+}
+
+.bottom-description-popular > div{
+    margin: 0px 5px;
+}
+
+#first-div-of-bottom-description-popular{
+    color: #4caf50;   
+}
+
+#arrow-up-span-of-bottom-description-popular {
+    margin-right: 6px;
+}

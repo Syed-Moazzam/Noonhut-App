@@ -1,0 +1,111 @@
+.sub-container-of-meat-products{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+}
+
+.show-meat-item{
+    width: 220px;
+    height: 260px;
+    margin: 10px 20px 15px 0px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+.hide-meat-item {
+    display: none;
+}
+
+.add-to-cart-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 24px;
+    border: 0px;
+    padding: 9px 20px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 2px 8px;
+    background-color: rgb(10, 173, 10);
+    color: white;
+    font-weight: 550;
+    visibility: visible;
+}
+
+.not-show-add-to-cart-btn {
+    visibility: hidden;
+}
+
+.add-to-cart-btn:hover {
+    background-color: rgb(12, 103, 12);
+}
+
+.add-to-cart-btn > span {
+    margin-left: 5px;
+}
+
+.show-item-quantity {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    border-radius: 24px;
+    border: 0px;
+    padding: 8.5px 0px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 2px 8px;
+    background-color: rgb(10, 173, 10);
+    color: white;
+    font-weight: 550;
+    height: 42px;
+    min-width: 154px;
+    display: flex;
+    align-items: center;
+    cursor: auto !important;
+    visibility: visible;
+}
+
+.not-show-item-quantity {
+    visibility: hidden;
+}
+
+.minus-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.minus-icon:hover, .plus-icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#span-of-item-quantity {
+    font-size: 18px;
+    margin: auto;
+}
+
+.plus-icon {
+    position: absolute;
+    right: 10px;
+}
+
+.images-of-meat-component {
+    width: 95%;
+    height: 65%;
+}
+
+.p-tag-for-item-details {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+#p1-of-item-details {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgb(52, 53, 56);
+}
+
+#p2-of-item-details {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: rgb(52, 53, 56);
+}

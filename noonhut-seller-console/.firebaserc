@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "noonhut-43fa6"
+  },
+  "targets": {
+    "noonhut-43fa6": {
+      "hosting": {
+        "noonhut-seller-console": [
+          "noonhut-seller-console-88ff8"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

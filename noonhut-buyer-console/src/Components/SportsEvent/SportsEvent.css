@@ -1,0 +1,60 @@
+.container-of-sports-events {
+    width: 100%;
+    padding: 2.5rem 0rem 3.75rem 0rem;
+    border-top: 2px solid #f0f0f0;;
+    border-bottom: 2px solid #f0f0f0;;
+    margin: 6.5rem auto 0rem auto;
+    text-align: center;
+}
+
+.container-of-sports-events > h1{
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: 1.25px;
+    margin-bottom: 10px;
+}
+
+.container-of-sports-events > h4 {
+    color: rgb(10, 173, 10);
+    letter-spacing: 1.25px;
+}
+
+.table-of-sport-event {
+    width: 82%;
+    margin: 32px auto 0px auto;
+    font-size: 18px;
+}
+
+.table-of-sport-event th {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 0px;
+    border: 1px solid #f0f0f0;
+}
+
+.table-of-sport-event td {
+    border: 1px solid #f0f0f0;
+    font-size: 20px;
+    color: #3e4242;
+    height: 7.5vh;
+}
+
+.td-element-of-betting-btn{
+    cursor: pointer;
+}
+
+.td-element-of-betting-btn:hover .btn-for-team-bet-in-table{
+    background-color: rgb(10, 173, 10);
+    color: white;
+}
+
+.btn-for-team-bet-in-table {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.td-element-of-betting-btn .btn-for-team-bet-in-table:active{
+    color: black;
+}

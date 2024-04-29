@@ -1,0 +1,22 @@
+.container-of-featured-products{
+    text-align: center;
+    margin-bottom: 6.5rem;
+}
+
+.headings-of-featured > h4 {
+    color: rgb(10, 173, 10);
+    letter-spacing: 1.25px;
+}
+
+.headings-of-featured > h1 {
+    letter-spacing: 1.25px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    margin: 1.2rem 0px;
+}
